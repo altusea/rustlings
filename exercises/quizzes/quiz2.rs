@@ -27,7 +27,7 @@ mod my_module {
     use super::Command;
 
     // TODO: Complete the function as described above.
-    pub fn transformer(input: Vec<(String, Command)> ) -> Vec<String> { 
+    pub fn transformer(input: Vec<(String, Command)>) -> Vec<String> {
         let mut output = Vec::new();
         for (string, command) in input {
             match command {
