@@ -14,7 +14,7 @@
 fn calculate_price_of_apples(apples: i32) -> i32 {
     let mut price = 2 * apples;
     if apples > 40 {
-        price = 1 * apples;
+        price = apples;
     }
     price
 }
